@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="card">
+                <div class="card-body text-center">
+                       <h3>Inserisci un numero da aggiungere alla coda:</h3>
+                       <div class="mt-4">
+                            <input type="number" id="numero" placeholder="Inserisci il numero ... " class="form-control"/>
+                            <div class="row justify-content-end">
+                                <div class="col-auto mt-4">
+                                    <input type="button" value="Invia" class="btn btn-success" id="invia"/>
+                                </div>
+                            </div>
+                       </div>
+                       <div>
+                            <h4>Coda inserita:</h4>
+                            <table id="coda" class="table table-stripped table-bordered">
+
+                            </table>
+                            <div class="row justify-content-end">
+                                <div class="col-auto mt-4">
+                                    <input type="button" id="elimina" class="btn btn-danger" value="Elimina"/>
+                                </div>
+                            </div>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
